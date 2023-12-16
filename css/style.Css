@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #e6e6fb;
+}
+
+.sub-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1.8rem;
+    border-radius: 6px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.input-field {
+    margin: 12px 0px;
+}
+
+input {
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px 8px;
+    outline: none;
+    width: 48%;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    font-family: 'poppins';
+    font-size: 1.1rem;
+}
+
+.input-gender {
+    display: inline-block;
+    width: 48%;
+}
+
+.input-gender input {
+    width: 10%;
+}
+
+.input-gender label {
+    width: 30%;
+}
+
+.input-field select {
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px 8px;
+    outline: none;
+    width: 48%;
+}
+
+.submit-field {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+}
+
+.submit-field input {
+    width: 30%;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    text-transform: capitalize;
+    font-family: 'poppins';
+    font-size: 1.1rem;
+    padding: 6px 8px;
+    background-color: #006d77;
+    color: #fff;
+    border-radius: 6px;
+    transition: all .4s ease-in;
+}
+
+.submit-field input:hover {
+    cursor: pointer;
+    background-color: #05474d;
+}
